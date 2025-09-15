@@ -30,7 +30,7 @@ spec:
         eks.amazonaws.com/nodegroup: stage-private
       containers:
       - name: frontend
-        image: sathish8329/kovaionplaysportziastage:4238
+        image: sathish8329/kovaionplaysportziastage:4240
         ports:
         - containerPort: 3000   # Ensure this matches the Service targetPort
 
